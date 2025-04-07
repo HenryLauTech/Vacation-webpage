@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    color:white;
+}
+
+.page-title {
+    color:black;
+}
+
+.banner {
+    background-color: rgba(255, 255, 255, 0.3);
+    height:75px;
+    padding-top: 25px;
+    color: white;
+}
+
+nav {
+    position: absolute;
+    top: 3%;
+    left: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.navbuttons {
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    padding: 10px;
+    border: 2px white solid;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color:white;
+}
+
+.navbuttons:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.page-title {
+    position: relative;
+    left:10%;
+    color: black;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bannericon {
+    position: absolute;
+    left: 95%;
+    top: 5%;
+    transform:  translate(-50%, -50%);
+    width: 100px;
+}
+
+body {
+    background-image:url(../Images/Vacation/backgroundImg.jfif);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+iframe.interactive-map {
+    position: absolute;
+    top: 55%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+.paragraph {
+    border-radius: 20px;
+    position:absolute;
+    background-color: rgba(70, 131, 180, 0.596);
+    max-width: 500px;
+    font-size:25px;
+}
+
+.paragraph > h2 {
+    text-align: center;
+    font-size:45px;
+}
+
+.flightpath {
+    width:550px;
+}
+
+figure, figcaption {
+    font-size: 30px;
+}
+
+.hidepic {
+    visibility:hidden;
+}
+
+.inline {display:inline;}
+
+.block {display:block;}
+
+.inline-block {display:inline-block;}
+
+.horizontalgrid {padding-top: 50px;display: flex; justify-content: space-around;}
+
+.diningpics {width:500px; height:400px; transition: transform 1s, filter 1s;}
+.diningpics:hover {transform: scale(1.1); filter: sepia(40%);}
+
+.attractpic {height:300px; transition: height 1s;}
+
+p strong {font-size: 30px;}
+
+.gradient {
+    background-image: linear-gradient(
+      45deg,
+      hsl(240deg 100% 20%) 0%,
+      hsl(281deg 100% 21%) 8%,
+      hsl(304deg 100% 23%) 17%,
+      hsl(319deg 100% 30%) 25%,
+      hsl(329deg 100% 36%) 33%,
+      hsl(336deg 100% 41%) 42%,
+      hsl(346deg 83% 51%) 50%,
+      hsl(3deg 95% 61%) 58%,
+      hsl(17deg 100% 59%) 67%,
+      hsl(30deg 100% 55%) 75%,
+      hsl(40deg 100% 50%) 83%,
+      hsl(48deg 100% 50%) 92%,
+      hsl(55deg 100% 50%) 100%
+    );
+  }
+
+/* Dropdown Button */
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+/* Ids */
+
+#top-5-list {
+    background-color:rgba(70, 131, 180, 0.7);
+    max-width:fit-content;
+    border-radius: 5px;
+    position:absolute;
+    top:100px;
+    font-size:25px;
+    height:95%;}
+
+#bibbody {background-color: white;font-size:20px;left:15px;top:15px;position:absolute;}
+
+#overview {top:25%;left:5%; padding:10px;}
+
+#dining-info {top:63%;left:30%; max-width:750px;}
+
+#attractions {top:30%;left:40%;}
+
+#activities {top:13%; left:5%;}
+
+#weather {left:20px; top:25%;}
+
+#house {top:20%; left:30%; font-size:28px;}
+
+#history {top: 150px; left: 20px; width:750px; position:absolute; font-size:20px;}
+
+#flights {top:130px; left:20px; position:absolute; font-size:20px;}
+
+#tempgraph {top:28%; left:32%; position:absolute;}
+
+#events {top:150px; left: 55%; right: 70px; position:absolute; font-size:20px;}
+
+#other-lodging-options {top:250px; left:65%; position:absolute; font-size:30px;}
+
+#redwood-pic {top:15%; left:70%; position:absolute; font-size: 20px;}
+
+#beach-pic {top:60.5%; left:30.5%; position:absolute; font-size: 20px;}
+
+#restaurant-pic {top:60%; left:70%; position:absolute; font-size: 20px;}
+
+#whale-pic {top:15%; left:30.5%; position:absolute; font-size: 20px;}
+
+#faq {top: 150px; left: 30%; position:absolute; font-size:25px; max-width:800px}
+
+#expectations {top:200px; right:5%; position:absolute; float:right; font-size:25px; max-width:300px; background-color:rgba(199, 120, 199, 0.8); border-radius:10px; padding:3px;}
+
+#pinklink {color: pink; text-decoration: underline; transition: color .5s;}
+#pinklink:hover {color: rgb(255, 0, 0); text-decoration: underline;}
+
+#cityimg {position:absolute; top: 15%; left: 2%; width:300px; filter:brightness(50%); transition: width 2s, filter 2s;}
+#cityimg:active {width:500px; filter:brightness(100%)}
+
+/* border-margin-padding element */
+#bmp {border: 2px solid black; margin: 20px; padding: 20px;}
+
+
+/* hover rules for attractions */
+
+#redwood-pic:hover figcaption{visibility:visible;}
+
+#beach-pic:hover figcaption{visibility:visible;}
+
+#restaurant-pic:hover figcaption{visibility:visible;}
+
+#whale-pic:hover figcaption{visibility:visible;}
+
+/* element change when hovered over */
+#post-tsunami {transition: filter 1s; filter:grayscale(100%);}
+#post-tsunami:hover {filter:grayscale(0%);}
+
+/* CSS Animation not used in any examples */
+.glowhouse:hover {animation: glow 1s forwards;}
+
+@keyframes glow {
+    from {}
+    to {
+      box-shadow: 0 0 40px hsl(12, 100%, 60%);
+    }
+  }
+
+/* Special HTMl Properties:
+target=""
+type=""      (for favicon)
+<figure> and <figcaption>
+
+
+CSS Styles not used in Code HS that are here:
+z-index
+box-shadow
+border-radius
+text-decoration
+*/
