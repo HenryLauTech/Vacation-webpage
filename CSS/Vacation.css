@@ -172,6 +172,8 @@ p strong {font-size: 30px;}
     font-size:25px;
     height:95%;}
 
+#imginstructions {position:absolute; top:78%; left:1%; font-size:20px;}
+
 #bibbody {background-color: white;font-size:20px;left:15px;top:15px;position:absolute;}
 
 #overview {top:25%;left:5%; padding:10px;}
@@ -208,13 +210,13 @@ p strong {font-size: 30px;}
 
 #expectations {top:200px; right:5%; position:absolute; float:right; font-size:25px; max-width:300px; background-color:rgba(199, 120, 199, 0.8); border-radius:10px; padding:3px;}
 
-#pinklink {color: pink; text-decoration: underline; transition: color .5s;}
+#pinklink {color: rgb(247, 135, 222); text-decoration: underline; font-weight:bold; transition: color .5s;}
 #pinklink:hover {color: rgb(255, 0, 0); text-decoration: underline;}
 
 #cityimg {position:absolute; top: 15%; left: 2%; width:300px; filter:brightness(50%); transition: width 2s, filter 2s;}
 #cityimg:active {width:500px; filter:brightness(100%)}
 
-/* border-margin-padding element */
+/* border-margin-padding element, displayed on the flights page */
 #bmp {border: 2px solid black; margin: 20px; padding: 20px;}
 
 
@@ -248,7 +250,7 @@ type=""      (for favicon)
 <figure> and <figcaption>
 
 
-CSS Styles not used in Code HS that are here:
+CSS Styles not previously used:
 z-index
 box-shadow
 border-radius
